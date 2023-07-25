@@ -4,8 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 <body>
+
+    <header class="mx-44">
+
+        <!--nav bar-->
+        
+        <div class="navbar bg-base-100 flex px-60 py-12  bg-red-500 rounded-full my-12 ">
+
+            <ul class=" gap-x-8">
+                <a href="">Home</a>
+                <a href="">Home</a>
+                <a href="">Home</a>
+                <a href="">Home</a>
+            </ul>
+
+            <div class="flex items-center pl-40 ">
+                <img src="images/logo.png">
+                <h1>Fruit Burst</h1>
+            </div>
+           
+            <div class="flex-none gap-2 pl-36">
+              <div class="form-control">
+                <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+              </div>
+             
+                
+              </div>
+            </div>
+          </div>
+
+
+    </header>
+
+    <main>
+        <section>
+            <div class="carousel w-full">
+                
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="images/banner1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <div class="text-slate-50 text-center">
+                        <h1 class="text-7xl">Exotic tastes at your doorstep</h1>
+                        <p class="text-xl">We supply highly quality organic products</p>
+                        <button class="bg-red-500 py-5 px-7 text-xl">Shop Now</button>
+                    </div>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+
+
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="images/banner2.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <div class="text-slate-50 text-center">
+                        <h1 class="text-7xl">Exotic tastes at your doorstep</h1>
+                        <p class="text-xl">We supply highly quality organic products</p>
+                        <button class="bg-red-500 py-5 px-7 text-xl">Shop Now</button>
+                    </div>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+
+
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="images/banner3.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <div class="text-slate-50 text-center">
+                        <h1 class="text-7xl">Exotic tastes at your doorstep</h1>
+                        <p class="text-xl">We supply highly quality organic products</p>
+                        <button class="bg-red-500 py-5 px-7 text-xl">Shop Now</button>
+                    </div>
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+
+
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="images/banner4.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <div class="text-slate-50 text-center">
+                        <h1 class="text-7xl">Exotic tastes at your doorstep</h1>
+                        <p class="text-xl">We supply highly quality organic products</p>
+                        <button class="bg-red-500 py-5 px-7 text-xl">Shop Now</button>
+                    </div>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+        </section>
+    </main>
+
+    <footer>
+        
+    </footer>
     
 </body>
 </html>
