@@ -16,30 +16,36 @@
         <!--nav bar-->
         <div class="navbar bg-base-100 flex px-12 py-8  bg-red-500 rounded-full my-12 ">
 
-            <ul class=" gap-x-8 text-base text-white">
-                <a href="">Home</a>
-                <a href="">About Us</a>
-                <a href="">Shop</a>
-                <a href="">All Fruits</a>
-            </ul>
+          <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost btn-circle md:hidden lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+                  </svg>
+              </label>
+              <ul tabindex="0" class=" gap-x-8 text-base text-white md:block  lg:block ">
+                  <a class="pr-6" href="">Home</a>
+                  <a class="pr-6" href="">About Us</a>
+                  <a class="pr-6" href="">Shop</a>
+                  <a class="pr-6" href="">All Fruits</a>
+              </ul>
+          </div>
 
-            <div class="flex items-center pl-40 ">
-                <img src="images/logo.png">
-                <h1 class="text-4xl text-white">Fruit Burst</h1>
+          <div class="flex items-center pl-40 ">
+              <img src="images/logo.png">
+              <h1 class="text-4xl text-white">Fruit Burst</h1>
+          </div>
+         
+          <div class="flex-none gap-2 pl-36">
+            <div class="form-control">
+              <input type="text" placeholder="Search here" class="input input-bordered w-24 rounded-full md:w-auto"  />
+
+              
             </div>
            
-            <div class="flex-none gap-2 pl-36">
-              <div class="form-control">
-                <input type="text" placeholder="Search here" class="input input-bordered w-24 rounded-full md:w-auto"  />
-
-                
-              </div>
-             
-                
-              </div>
+              
             </div>
           </div>
-    
+        </div>
 
 <!--banner section-->
     </header>
